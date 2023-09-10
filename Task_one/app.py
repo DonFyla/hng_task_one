@@ -12,8 +12,8 @@ def information():
     current_time = datetime.datetime.utcnow().replace(tzinfo=pytz.UTC)
     current_time_str = current_time.strftime('%Y-%m-%dT%H:%M:%SZ')
     current_day = current_time.strftime('%A')
-    github_file_url = ""
-    github_repo_url = ""
+    github_file_url = "https://github.com/DonFyla/hng_task_one/blob/f24145a0a379555817ff0bcb63568bea05926a64/Task_one/app.py"
+    github_repo_url = "https://github.com/DonFyla/hng_task_one.git"
 
 
     response = {
